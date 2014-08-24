@@ -8,7 +8,7 @@ pkg_status <- packageStatus()
 ## relative_base_directory <- "./Dropbox/DataScience/3 - GettingAndCleaningData/coursera"
 target_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 target_localfile <- "DS.zip"
-target_localsubdirectory <- "proj"
+## target_localsubdirectory <- "proj"
 
 ## Start in the base_directory
 ## setwd(relative_base_directory)
