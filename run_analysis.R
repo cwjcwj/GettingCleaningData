@@ -156,7 +156,8 @@ extras <- c(length(names(combined_data))-1, length(names(combined_data)))
 means_stds <- combined_data[, sort(c(means, stds, extras))]
 
 ## Save the means_stds data.frame
-save(means_stds, ascii = TRUE, file = "means_stds.RData.txt")
+write.table(means_stds, file="../tidy2.RData.txt", row.name=FALSE)
+##save(means_stds, ascii = TRUE, file = "means_stds.RData.txt")
 
 ## Creates a second, independent tidy data set with the
 ##   average of each variable for each activity and each subject.
@@ -174,4 +175,5 @@ names(tidy2)[1] <- "subjects"
 names(tidy2)[2] <- "activities"
 
 ## Save the tidy2 data.frame for submission
-save(tidy2, ascii = TRUE, file = "tidy2.RData.txt")
+write.table(tidy2, file="../tidy2.RData.txt", row.name=FALSE)
+## save(tidy2, ascii = TRUE, file = "tidy2.RData.txt")
