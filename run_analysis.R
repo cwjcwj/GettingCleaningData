@@ -4,21 +4,22 @@ require(tools)         ## needed for md5 checksums
 ## Variable Presets
 r_version <- R.Version()
 pkg_status <- packageStatus()
-relative_base_directory <- "./Dropbox/DataScience/3 - GettingAndCleaningData/coursera"
+## relative_base_directory not needed in final submission
+## relative_base_directory <- "./Dropbox/DataScience/3 - GettingAndCleaningData/coursera"
 target_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 target_localfile <- "DS.zip"
 target_localsubdirectory <- "proj"
 
 ## Start in the base_directory
-setwd(relative_base_directory)
+## setwd(relative_base_directory)
 
 ## Create localsubdirectory, if needed, and go there
-if (file.exists(target_localsubdirectory)){
-        setwd(file.path("./", target_localsubdirectory))
-} else {
-        dir.create(file.path("./", target_localsubdirectory))
-        setwd(file.path("./", target_localsubdirectory))
-}
+## if (file.exists(target_localsubdirectory)){
+##         setwd(file.path("./", target_localsubdirectory))
+## } else {
+##         dir.create(file.path("./", target_localsubdirectory))
+##         setwd(file.path("./", target_localsubdirectory))
+## }
 
 ## Document R environment in a new, current file
 if (file.exists("r_environment.txt")) {
