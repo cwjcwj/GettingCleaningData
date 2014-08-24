@@ -156,7 +156,7 @@ extras <- c(length(names(combined_data))-1, length(names(combined_data)))
 means_stds <- combined_data[, sort(c(means, stds, extras))]
 
 ## Save the means_stds data.frame
-write.table(means_stds, file="../tidy2.RData.txt", row.name=FALSE)
+write.table(means_stds, file="../means_stds.RData.txt", row.name=FALSE)
 ##save(means_stds, ascii = TRUE, file = "means_stds.RData.txt")
 
 ## Creates a second, independent tidy data set with the
