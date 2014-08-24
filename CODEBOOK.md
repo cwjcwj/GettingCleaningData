@@ -33,7 +33,7 @@ fBodyGyroJerkMag
 The set of variables used in tidy2 were estimated from these signals using:
 
 mean(): Mean value
-std(): Standard deviation
+std(): Standard deviation 
 
 For these selected variables, the run_analysis script created the mean()of each original mean()or std()variable for each combination of a subject performing an activity.
 
