@@ -1,0 +1,16 @@
+[1] "Download date:"
+[1] "2014-08-24 16:35:13 EDT"
+[1] "Download URL:"
+[1] "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+[1] "Downloaded file Information"
+      DS.zip               
+size  "62556944"           
+isdir "FALSE"              
+mode  "666"                
+mtime "2014-08-24 16:35:13"
+ctime "2014-08-24 16:34:16"
+atime "2014-08-24 16:34:16"
+exe   "no"                 
+[1] "Downloaded file md5 Checksum"
+                            DS.zip 
+"d29710c9530a31f303801b6bc34bd895" 
